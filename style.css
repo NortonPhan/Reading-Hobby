@@ -3,8 +3,50 @@ body{
     background-color:blueviolet;
     
 }
+img{
+    border-radius:250px;
+}
 p{
     font-size:30px;
     font-weight:bold;
   font-family: 'Architects Daughter', cursive;
+}
+.listofsections{
+    list-style:none;
+    position:fixed;
+    top: 15px;
+    left:50px;
+    z-index:10;
+    cursor:pointer;
+}
+.link {
+    float: left;
+    font-size: 20px;
+    color:coral;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 5px;
+    font-weight: 900;
+    font-family: 'Freckle Face', cursive;
+}
+.link:hover {
+    background-color:black;
+}
+#welcome {
+    
+    overflow: hidden;
+    height: 600px;
+    color: darkslateblue;
+    opacity:0.9;
+  
+    
+    background: linear-gradient(orangered 0%, cadetblue 100%);
+  
+}
+#bio {
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    top:199px;
 }
